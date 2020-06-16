@@ -2,6 +2,12 @@ FROM golang:1.14
 
 LABEL maintainer "Akira Shinohara <k017c1067@it-neec.jp>"
 
+# ***************************
+# * support Japanese string *
+# ***************************
+ENV LANG=C.UTF-8
+ENV LANGUAGE=en_US:
+
 # *************************
 # * enable go mod support *
 # *************************
