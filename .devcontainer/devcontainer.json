@@ -1,0 +1,17 @@
+{
+  "name": "twinkling-gecko/caffe-latte",
+
+  "dockerComposeFile": ["docker-compose.yml"],
+
+  "service": "leopard",
+
+  "workspaceFolder": "/go/src/github.com/twinkling-gecko/caffe-latte",
+
+  "settings": {
+    "terminal.integrated.shell.linux": "fish"
+  },
+
+  "extensions": [],
+
+  "remoteUser": "lonewolf"
+}
