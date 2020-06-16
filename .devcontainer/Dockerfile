@@ -26,6 +26,7 @@ RUN groupadd --gid $USER_GID $USERNAME \
 RUN apt-get update && apt-get install -y \
     sudo \
     fish \
+    vim \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 RUN go get github.com/pilu/fresh
