@@ -30,7 +30,6 @@ RUN groupadd --gid $USER_GID $USERNAME \
 # * resolve dev dependencies *
 # ****************************
 RUN apt-get update && apt-get install -y \
-    sudo \
     fish \
     vim \
     && apt-get clean \
