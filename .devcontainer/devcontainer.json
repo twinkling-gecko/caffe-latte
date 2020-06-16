@@ -8,10 +8,16 @@
   "workspaceFolder": "/go/src/github.com/twinkling-gecko/caffe-latte",
 
   "settings": {
-    "terminal.integrated.shell.linux": "fish"
+    "terminal.integrated.shell.linux": "fish",
+    "go.gopath": "/go",
+    "go.toolsGopath": "/go",
+    "go.useLanguageServer": true,
+    "editor.formatOnSave": true
   },
 
-  "extensions": [],
+  "extensions": [
+    "golang.go"
+  ],
 
   "remoteUser": "lonewolf"
 }
