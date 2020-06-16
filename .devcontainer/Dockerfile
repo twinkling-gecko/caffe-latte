@@ -32,9 +32,12 @@ RUN groupadd --gid $USER_GID $USERNAME \
 RUN apt-get update && apt-get install -y \
     fish \
     vim \
+    nodejs \
+    npm \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 RUN go get github.com/pilu/fresh
+RUN npm i -g prettier
 
 # ***************************
 # * start go app with fresh *
