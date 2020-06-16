@@ -12,6 +12,7 @@ services:
     volumes:
       - ../:/go/src/github.com/twinkling-gecko/caffe-latte:cached
       - ~/.gitconfig:/home/lonewolf/.gitconfig
+      - ~/.ssh:/home/lonewolf/.ssh
 
     ports:
       - 3000:3000
