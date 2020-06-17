@@ -20,6 +20,8 @@ requirement:
    - 表示される go に関するダイアログはすべて無視する（5 の手順で解決する）
 5. go のファイルを開いている間のみ右下に表示される「Analysis Tools Missing」を選択し、表示されたダイアログから「Install」を行う
    ![](https://user-images.githubusercontent.com/34061817/84777309-62b7b180-b01c-11ea-8ad3-40b3f14d5064.png)
+6. gopls が入っていないと怒られたら、「Install」を行う
+   ![](https://user-images.githubusercontent.com/38117745/84847101-40a94800-b08b-11ea-9795-6f0ab1aef962.png)
 
 #### 開発サーバーの起動方法
 
