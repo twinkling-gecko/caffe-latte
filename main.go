@@ -11,5 +11,5 @@ func main() {
 	app.GET("/", func(c echo.Context) error {
 		return c.String(http.StatusOK, "Hello World!!")
 	})
-	app.Logger.Fatal(e.Start(":3000"))
+	app.Logger.Fatal(app.Start(":3000"))
 }
