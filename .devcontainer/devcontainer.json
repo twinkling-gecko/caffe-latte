@@ -1,0 +1,30 @@
+{
+  "name": "twinkling-gecko/caffe-latte",
+
+  "dockerComposeFile": ["docker-compose.yml"],
+
+  "service": "leopard",
+
+  "workspaceFolder": "/go/src/github.com/twinkling-gecko/caffe-latte",
+
+  "settings": {
+    "terminal.integrated.shell.linux": "fish",
+    "go.gopath": "/go",
+    "go.toolsGopath": "/go",
+    "go.useLanguageServer": true,
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[markdown]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.formatOnSave": true
+  },
+
+  "extensions": ["golang.go", "esbenp.prettier-vscode"],
+
+  "remoteUser": "lonewolf"
+}

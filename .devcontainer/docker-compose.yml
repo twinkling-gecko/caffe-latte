@@ -1,0 +1,20 @@
+version: "3"
+services:
+  leopard:
+    user: lonewolf
+
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    working_dir: /go/src/github.com/twinkling-gecko/caffe-latte
+
+    volumes:
+      - ../:/go/src/github.com/twinkling-gecko/caffe-latte:cached
+      - ~/.gitconfig:/home/lonewolf/.gitconfig
+      - ~/.ssh:/home/lonewolf/.ssh
+
+    ports:
+      - 3000:3000
+
+    command: /bin/sh -c "while sleep 1000; do :; done"
